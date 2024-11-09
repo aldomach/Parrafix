@@ -9,7 +9,7 @@ def process_text(text):
     text = re.sub(r'([a-zA-Z]+\.)(\d+)(\r?\n)', r'\1', text)
 
     # Expresión 3: Saltos de lineas
-    text = re.sub(r'(?<!\.)\r?\n', '\s', text)
+    text = re.sub(r'(?<!\.)\r?\n', r' ', text)
 
     return text
 
