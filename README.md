@@ -1,7 +1,10 @@
 # Parrafix
-Soluciona el error cuando un txt tiene todos los parrafos cortados, con saltos de lineas, los elimina y deja solo si terminan co punto.
-Despues de conevertir una archivo pdf a txt todas los renglones terminan con saltos de líneas, esto es incorrecto. deberían ser lineas continuas hasta el punto de fin de parrafo.
-Este script en python abre un txt y usa las expreciones regulares
+Soluciona el error cuando un txt tiene todos los parrafos cortados, con saltos de lineas, los elimina y deja solo si terminan con punto.
+
+Despues de convertir una archivo pdf a txt todas los renglones terminan con saltos de líneas, esto es incorrecto. deberían ser lineas continuas hasta el punto de fin de parrafo.
+
+Este script en python abre un txt y usa las expreciones regulares.
+
 -   Palabras cortadas: Buscá saltos cuando la línea termina en guion medio (-) precedido de una o más letras.
      -   Expresión Regular: (\[A-Za-z\]+)-\\r?\\n
      -   Reemplazo: \\1
