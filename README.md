@@ -15,7 +15,7 @@ Este script en python abre un txt y usa las expreciones regulares.
 
 -   Saltos de línea: Eliminá los saltos de línea cuando estas no terminen con un punto.
     -   Expresión Regular: (?<!\\.)\\r?\\n
-    -   Reemplazo: (Dejá en blanco)
+    -   Reemplazo:\s
 
 
 # Articulo de referencia.
